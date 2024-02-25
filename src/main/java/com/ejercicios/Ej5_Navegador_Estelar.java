@@ -1,4 +1,4 @@
-package Ejercicios;
+package com.ejercicios;
 import java.util.Arrays;
 // Clase que representa un navegador estelar
 public class Ej5_Navegador_Estelar {

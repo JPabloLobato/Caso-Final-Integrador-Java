@@ -1,4 +1,4 @@
-package Ejercicios;
+package com.ejercicios;
 // Clase para crear un cronometro cósmico
 public class Ej1_Cronometro_Cosmico {
     private double PlanetaDiaEnSegundos;

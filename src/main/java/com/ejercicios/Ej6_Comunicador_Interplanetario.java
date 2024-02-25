@@ -1,4 +1,4 @@
-package Ejercicios;
+package com.ejercicios;
 import java.util.HashMap;
 import java.util.Map;
 public class Ej6_Comunicador_Interplanetario {

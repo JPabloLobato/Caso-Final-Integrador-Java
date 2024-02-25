@@ -1,4 +1,4 @@
-package Ejercicios;
+package com.ejercicios;
 // Clase para calcular recursos y suministros
 public class Ej2_Recursos_y_suministros {
     private int NivelActualDeRecursos;

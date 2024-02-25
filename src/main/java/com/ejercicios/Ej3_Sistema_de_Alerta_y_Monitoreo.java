@@ -1,4 +1,4 @@
-package Ejercicios;
+package com.ejercicios;
 import java.util.ArrayList;
 import java.util.List;
 public class Ej3_Sistema_de_Alerta_y_Monitoreo {
