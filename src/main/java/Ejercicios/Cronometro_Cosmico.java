@@ -10,7 +10,7 @@ public class Cronometro_Cosmico {
     public double convertTimeToPlanet(double TiempoEnSegondos) {
         return TiempoEnSegondos / this.PlanetaDiaEnSegundos;
     }
-    public tiempo (double TiempoEnSegundos) {
+    public void mostrarTiempo (double TiempoEnSegundos) {
         double minutes = TiempoEnSegundos / 60;
         double hours = minutes / 60;
         double days = hours / 24;
@@ -30,5 +30,14 @@ public class Cronometro_Cosmico {
         System.out.println("Valor máximo por float: " + Float.MAX_VALUE);
         System.out.println("Valor máximo por double: " + Double.MAX_VALUE);
     }
+    public static void main(String[] args) {
+        Cronometro_Cosmico cronometro = new Cronometro_Cosmico(86400, 31536000);
+        double tiempoEnSegundos = 1000000000;
+        double tiempoEnPlaneta = cronometro.convertTimeToPlanet(tiempoEnSegundos);
+        System.out.println("Tiempo en segundos: " + tiempoEnSegundos);
+        cronometro.mostrarTiempo(tiempoEnSegundos);
+        cronometro.dataLimitAnalysis();
+    }
 }
+
 
