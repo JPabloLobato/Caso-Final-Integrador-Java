@@ -1,11 +1,11 @@
 package Ejercicios;
 import java.util.ArrayList;
 import java.util.List;
-public class Sistema_de_Alerta_y_Monitoreo {
+public class Ej3_Sistema_de_Alerta_y_Monitoreo {
     private int[] VariablesAmbientales;
     private int[] Eventos;
     //Constructor que inicializa las variables de la clases.
-    public Sistema_de_Alerta_y_Monitoreo(int[] VariablesAmbientales, int[] Eventos) {
+    public Ej3_Sistema_de_Alerta_y_Monitoreo(int[] VariablesAmbientales, int[] Eventos) {
         this.VariablesAmbientales = VariablesAmbientales;
         this.Eventos = Eventos;
     }
@@ -53,7 +53,7 @@ public class Sistema_de_Alerta_y_Monitoreo {
         int[] Eventos = {5, 15, 25, 35, 45};
         int Umbral = 25;
         int num = 100;
-        Sistema_de_Alerta_y_Monitoreo sistema = new Sistema_de_Alerta_y_Monitoreo(VariablesAmbientales, Eventos);
+        Ej3_Sistema_de_Alerta_y_Monitoreo sistema = new Ej3_Sistema_de_Alerta_y_Monitoreo(VariablesAmbientales, Eventos);
         sistema.IdentificarEventosRaros();
         sistema.MonitoreoConstante(Umbral);
         sistema.DescomposicionDeProblemas(num);

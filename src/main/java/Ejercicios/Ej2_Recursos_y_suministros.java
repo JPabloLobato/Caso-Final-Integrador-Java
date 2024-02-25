@@ -1,9 +1,9 @@
 package Ejercicios;
-
-public class Recursos_y_suministros {
+// Clase para calcular recursos y suministros
+public class Ej2_Recursos_y_suministros {
     private int NivelActualDeRecursos;
     private int UmbralSeguro;
-    public Recursos_y_suministros(int NivelActualDeRecursos, int UmbralSeguro) {
+    public Ej2_Recursos_y_suministros(int NivelActualDeRecursos, int UmbralSeguro) {
         this.NivelActualDeRecursos = NivelActualDeRecursos;
         this.UmbralSeguro = UmbralSeguro;
     }
@@ -42,6 +42,7 @@ public class Recursos_y_suministros {
         int promedio = total / DatosDeConsumo.length;
         return new int[] {min, max, promedio};
     }
+    // Mostrar resultados.
     public void MostrarResultados (int [] DatosDeConsumo, int RangoDeProdiccion) {
         int consumo = CalculadoraDeConsumo(DatosDeConsumo);
         int prediccion = PrediccionDeNecesidades(DatosDeConsumo, RangoDeProdiccion);
@@ -54,7 +55,7 @@ public class Recursos_y_suministros {
     }
     public static void main(String[] args) {
         System.out.println("Inicio del programa");
-        Recursos_y_suministros recursos = new Recursos_y_suministros(100, 50);
+        Ej2_Recursos_y_suministros recursos = new Ej2_Recursos_y_suministros(100, 50);
         int[] DatosDeConsumo = {10, 20, 30, 40, 50};
         int RangoDeProdiccion = 7;
         recursos.MostrarResultados(DatosDeConsumo, RangoDeProdiccion);
