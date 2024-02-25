@@ -42,7 +42,7 @@ class Tripulacion {
     }
 }
 // Clase para planificar tareas
-public class Planificador_de_Tareas {
+public class Ej4_Planificador_de_Tareas {
 
     // Método para asignar tareas a la tripulación
     public static void asignarTareas(List<Tarea> tareas, List<Tripulacion> tripulacion) {
